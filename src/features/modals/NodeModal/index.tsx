@@ -39,7 +39,7 @@ export const NodeModal = ({ opened, onClose }: ModalProps) => {
             <Text fz="xs" fw={500}>
               Content
             </Text>
-            <Group spacing="xs">
+            <Group>
               <Button size="xs" onClick={() => setVisible("EditNodeModal", true)}>
                 Edit
               </Button>
